@@ -1,0 +1,89 @@
+
+.button {
+    -fx-font: 22 arial;
+    -fx-base: #DDDDDD;
+}
+
+.boutonSelectionGauche {
+    -fx-padding : 10px;
+    
+    -fx-background-color : #3BB3E0;
+    -fx-background-radius : 14px 14px;
+    
+    -fx-border-color : #2A97C6 ;
+    -fx-border-width : 3px;
+    -fx-border-radius : 13px 13px;
+    
+    -fx-font: 22px arial;
+    -fx-text-fill: #330033;
+}
+
+.boutonSelectionGauche:selected{
+    -fx-font-size : 26px;
+    
+    -fx-background-color : linear-gradient(to bottom right, #330033 , #000066);
+    
+    -fx-text-fill: #FFF;
+    -fx-border-width : 6px;
+    -fx-border-color : #160032 ;
+}
+
+.boutonSelectionGauche:hover ,.boutonActionForteDroite:hover{
+    -fx-underline : true;
+}
+
+.boutonControleHaut{
+    -fx-font: 22 arial;
+    -fx-base: #b6e7c9;
+}
+
+.btnSimulation{
+    -fx-background-radius : 40px 40px 10px 10px;
+    -fx-border-radius : 40px 40px 10px 10px;
+}
+
+.btnDelete{
+    -fx-background-radius : 10px 10px 40px 40px;
+    -fx-border-radius : 10px 10px 40px 40px;
+}
+
+BarreDroite {
+    -fx-background-color: linear-gradient(to top,#D4DFF9,#66FFB2);
+    -fx-alignment: center;
+    -fx-spacing: 8;
+}
+
+BarreGauche {
+    -fx-background-color: linear-gradient(to top,#D4DFF9,#66FFB2);
+    -fx-alignment: top-center;
+    -fx-spacing: 20;
+    -fx-padding : 10px;
+}
+
+BarreHaut {
+    
+    -fx-padding : 0px 0px 5px;
+    -fx-background-color: rgb(2,0,36);
+    -fx-background-color: linear-gradient(to top, #020024 0%, #5473ad 17%, #66a9ab 100%);
+    -fx-border-color : #190033 ;
+    -fx-border-width : 1px;
+}
+
+BarreBas {
+    -fx-background-color: linear-gradient(to top,#DE8BCD,#D4DFF9);
+    -fx-font: 22 arial;
+}
+
+ZoneDessin {
+    -fx-background-color: #fff
+}
+
+.boutonActionForteDroite {
+    -fx-font: 24 arial;
+    -fx-background-color: #FF0000;
+    
+    -fx-border-color : #EE0000 ;
+    -fx-border-width : 3px;
+    
+    -fx-text-fill: #FFF;
+}
